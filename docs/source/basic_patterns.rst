@@ -34,7 +34,7 @@ First, we make *Alice* bind:
 
 .. code-block:: python
 
-  addr = alice.bind('PUSH', alias='main')
+   addr = alice.bind('PUSH', alias='main')
 
 There are three things to remark in that line:
 
@@ -53,7 +53,7 @@ The next interesting line of code is the one in which *Bob* connects to
 
 .. code-block:: python
 
-  bob.connect(addr, handler=log_message)
+   bob.connect(addr, handler=log_message)
 
 There are two things to remark in here:
 
